@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAJdElEQVR42u2dW2wcVxnHz3cus7PeWa+TOLh2atVWKChOQKRRbkZVXqCpgLSoEhIP1Kq4SOGBF3hBIoBKAqKPrSpRBKIFEVqpL0jl1lai5EIwCRdVrasmhIS4jUt9WV92vbuzM3M+HmxRkYRk1/ZMxrv/n/bBWo13Z77vN+c+Z6mrp18AcCMkQgAgB4AcAHIAyAEgB4AcAHIAyAEgB4AcAEAOADkA5ACQA0AOADkA5ACQA0AOADkAgBwAcgDIASAHgBwAcgDIASAHgBwAcgAAOQDkAJADQA4AOQDkAJADQA4AOQDkAJADAMgBIAeAHAByAMgBIAeAHGC9o2/HlxJJKQT975vMbAVz22ckRcFJWg6SykZBWC3ZKBQkBP/3falMVukMM7/3brt5kbLg6IRviqC6kMltvGPbxwq9Q2wjImJmqXRl7urk+ROLxXHtdAipBNs2LDHSFhyd3LUTBdWFwf0j2z7+VbfQq7QRLJbvDxJsbb0ye+Xcc6//5rsiYqk0t5EfKQ0OJfPrkEu3xUce+t7dBw6H/mIU+NcVjySVMdn85IVTZ54esWGdlG6TJkhqg6Ncr5BAVRrUSoP7Rz70qSN+uchsSSoiec1LCBvUyoUt25zshomx3ynltEPjI83BiV8OIraB4xb2fO4HpIywEUn5/28hFfqVTQO7Jy+eKk9fUsZt8cIj3cGR8V++jPxq9/uH3cIdNqgJectvZJKyb/v9HIXX9ehasEJJc3ASGAQja8Ouvu1KN1gSEltb6B2SyrRBnyXVwUlohJRtGOvx65rUBiex4XOK+fj1XX6kMziYWwGQA0AOsIaswfA5SSWEWO5zE7G1bTtzdptbLmudiNXJQSSEqFfmhBBSabaWbajdvJRtNTOSBi9iSYRexflIG9ZZ8JYPf7J36GBuQ1+9Wnr3/CsTr/3Wr8wa12MbIWuJiBFXIlYqB8ko9J1sYddnH+8duk8ws7WCqH/np+cPfPkvz36lOP53k83DjwTqkvgSIVdYiLGVyuwd+VHfjoP18ky9Mhf4paA6XytN5zdvHf7Czzt77o7qVUFo8MZcm8SZCLmiU1L1ytzgvod7PnhvbWGKlFmeSJRKKlOvzLmdPUP3f92GdWqvsazk3Yg3ESu6s21kMt6WHZ8I/TqRuvYTlQlqpe6t+7z3bY3CKhH8iI1mEiGaT4Rcga7WBo63Kdc9YKM6XV9eEbENndxGr3vQhoGAHLGVG9aGjSeCmq9ZVtomYGaObjbIz4zebBLEmYjVNBhRJKSlDInpc9GbAJADQA4AOQDkAJADQA4AOUCroNN5WkSktda6xRcNkdSR1lJKyNGEGUEQzE5NkVtteTm4OlupVNI5AaWTSXYT9ZyUvl8fGBj41ncetWRafTmqVLYy4907U/WVlNxMlFpBDiKq1+vM3KAhROT7/tDgXUce+EbNtvicrrUiq8Tz54Ljpxc7O2SDpSQR1Wq1XCa3vuWQUpYXSsPD+z8z8vArl0pZoxp5LnypWpmanfOD1pcjnxWVCjVYuCqlyuXy8PD+/vLIj5853tWZW8dyWGu14z722Pf/7dxZf7PY4agGNw0gIq1VxK0vh9ZCShai0aYVM5OUx44dPXnm3JXLF/PZrnXZlVVSLVYW9+zeveuee4rFOaUUOodrUU3LSqWyeUPXoUOHqpVqrI0PGedlENeDvfv2aqmxh+Sa3nUysLx/317jGLa8LuVYwhiD59/WHBZkjIk7fTF+OjMLrcZeH7OCsWpsLVsqzEaKsbGxMKiTpHUph7U229Fx6tTp8beu5HI5a7GkdI06EVr7YfTCr36tjeE46+sYeyss2DGmWJw5evTYfV96kogar1+YOYqiKGr93koUCWZq5l+ivFd46qkfjo6Odnqejey6lEMIEUW20LXh+C+eHadddw4fri8WSepGzNDaFAo5v86xFpu3nSjiTpcyGZ+52sg6YWut53mjo2dffuJRz/NszPs/JTF8rrWenS32N1YIMLPWenZ29qWXzoRWEbVya9YyuTq4NHOXMf3MwS39YGal1Pz8vLXWKBW1gBxL+W68pdLR4Y69NvbE4Yd0JtfiE2/K+KWpnQ9+e+eD36yVZhouVvVyez/uuzqhrlczV8IslFae57W+HFIbrjqO01SiOalBo5Su52Bma621tsXlEEvXmNKqEyvBAOQAkANADgA5AOQAkANADgA5GnhoAIt8kiGuRKxQDiJJpG72rUSNzBSAVRJrIla4D2lQK/nlaZI3Pi0iGfmLtYXJ5a3aQWxmNJMIjl8OZlLGX5yZvHBCZ7LXLyngKNROx/zVsYWJN7STZSwAi6syiT0RckVnFRnXu/jHnyzOvGWyXTasM1shWDBzFJI2gujN3z9uOcL21jHrEW8i5MpOSupMdfbtP//0i7WFd9zCZmVcklpqx/E2SmX+9vzX3nnjZeNiY/zY7Yg1EStsqrCNtJsvjv/1D08+sPWjn+/5wAE33x34lZl/nb38p59NXz7rZAswIwk94kyEXt1peX5p8tVfHsnkNppsPgr82sK7Umecji6YkawfsSRCr+60LCmT8brZBrXSDEnp5DYKZpiRuB+xJGLVQxHMzKEQUmopWECL29j+WPNErNU4FWM4NCWOrGEi0NUEkAOkV45mF1i31ZYNaQ1OQnKQ0s0f3y5P5qc2OEnIQSQrc1fZRo1dEhNRdX7C2qAd/EhzcGKXgznSTnby/Am/MkfK3LJIZCGEVBNjLwrR+m6kPDgygQBI4y4Wx8fPPedk89YGNznWRoGTLUz94/TkhZPGzbf+r8SlOzjK9QpJ1F5ST144sWlwT6FvW+hXlm8RtoL5vb+tdTq6/PL06DOP+OVpZZw2aZamNjgJyUFSMfPbr77gZLs2DezWTlZqR5nM8ktltMlqNzf1zzOjTz+yWLyiM7n2WQiS2uBQV09/Yi0vGwU2CjYN7OnbcbDQu51tKAQJwSR1dX5iYuzFyQsno6CqM7l2G4ZPZ3CSk2MpBiQo8MschVIt7WtOQrAgslEohDBunki26Q/Spi84ya4BZmbBJuMJomurTCIhBLf6ngvrKzj6dgTB3mByCPN26QsO5lYA5ACQA0AOADkA5ACQA0AOADkA5ACQAwDIASAHgBwAcgDIASAHgBwAcgDIASAHAJADQA4AOQDkAJADQA4AOQDkAJADQA4AIAeAHAByAMgBIAeAHAByAMgBIAeAHAByAAA5AOQAkANADgA5AOQAkAOse/4DycTMHPUd4D4AAAAASUVORK5CYII=">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Edzésnapló">
+<meta name="theme-color" content="#10171d">
+<title>Napló — Pull</title>
+<style>
+:root{--bg:#eef1f4;--card:#fff;--ink:#14202b;--mute:#6a7885;--line:#d9e0e6;--acc:#1f5fbf;--accink:#fff;--ok:#1d7a4f;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10171d;--card:#182028;--ink:#e8eef3;--mute:#8b9aa7;--line:#2a3540;--acc:#5b96f0;--accink:#0b1520;--ok:#4cc38a}}
+:root[data-theme="dark"]{--bg:#10171d;--card:#182028;--ink:#e8eef3;--mute:#8b9aa7;--line:#2a3540;--acc:#5b96f0;--accink:#0b1520;--ok:#4cc38a}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.4 "Inter","Segoe UI",system-ui,sans-serif;-webkit-text-size-adjust:100%}
+main{max-width:560px;margin:0 auto;padding:16px 14px 40px}
+h1{font-size:22px;margin:4px 0 12px;letter-spacing:-.01em;text-align:center}
+.top{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;margin-bottom:16px}
+.top label{min-width:0}
+.dur-display{border:1px solid var(--line);border-radius:8px;padding:10px 8px;background:var(--card);color:var(--mute);font-size:14px;min-height:20px;display:flex;align-items:center}
+label.f.sm{font-size:11px}
+.f.sm input{font-size:12px;padding:6px 6px;min-height:32px}
+input[type=date],input[type=time]{min-width:0;max-width:100%;-webkit-appearance:none;appearance:none;min-height:44px}
+.top input[type=date]{display:block;text-align:left}
+label.f{display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--mute)}
+input{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 8px;width:100%;min-width:0;text-align:center}
+input:focus{outline:2px solid var(--acc);outline-offset:1px}
+.top input{text-align:left}
+.ex{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin-bottom:12px}
+.ex h2{font-size:16px;margin:0;font-weight:650}
+.ex .t{font-size:13px;color:var(--mute);margin:2px 0 8px}
+.row{display:grid;grid-template-columns:28px 1fr 1fr;gap:6px;align-items:center;margin-bottom:6px}
+.row.h{font-size:12px;color:var(--mute);margin-bottom:2px}
+.row.h span{text-align:center}
+.hint{font-size:13px;color:var(--acc);margin:0 0 8px;font-weight:600}
+.warm{font-size:12px;color:var(--mute);margin:0 0 8px}
+.wr{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:14px;color:var(--mute);margin:6px 0 10px}
+.wr input{width:110px}
+.n{font-size:14px;color:var(--mute);text-align:center}
+.done input{border-color:var(--ok)}
+.invalid{border-color:#e5484d !important}
+.bar{display:flex;gap:8px;margin:16px 0}
+button{font:inherit;font-weight:600;border-radius:10px;padding:12px 14px;border:1px solid var(--line);background:var(--card);color:var(--ink);flex:1}
+button.p{background:var(--acc);color:var(--accink);border-color:var(--acc)}
+button:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.hist{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:4px 12px;margin-bottom:10px}
+.hist summary{padding:10px 0;cursor:pointer;font-weight:600}
+.hist summary small{color:var(--mute);font-weight:400;margin-left:6px}
+.hist p{margin:0 0 8px;font-size:14px}
+.hist b{display:block;font-weight:600}
+.msg{font-size:13px;color:var(--mute);min-height:18px;text-align:center}
+.msg.good{color:var(--ok)}
+.msg.bad{color:#e5484d}
+h3{font-size:15px;margin:22px 0 8px;color:var(--mute);font-weight:600}
+.dynwarm{border:1px solid var(--line);border-radius:8px;padding:6px 8px;background:var(--card);margin-bottom:16px;font-size:12px;color:var(--mute)}
+.dynwarm summary{cursor:pointer;font-weight:600;list-style:none;text-align:center}
+.dynwarm summary::-webkit-details-marker{display:none}
+.dynwarm[open] summary{margin-bottom:6px}
+.dynwarm p{margin:0}
+</style>
+</head>
+<body>
+<main>
+<h1>Napló — Pull</h1>
+<div class="top">
+  <label class="f">Dátum<input type="date" id="date"></label>
+  <label class="f">Edzésidő<div class="dur-display" id="dursum">—</div></label>
+  <label class="f sm">Kezdés<input type="time" id="st"></label>
+  <label class="f sm">Vége<input type="time" id="en"></label>
+</div>
+<input type="hidden" id="dur">
+<details class="dynwarm" id="dynwarm">
+  <summary>Dinamikus bemelegítés</summary>
+  <p>Ugrókötél – 120 mp<br>Szalagos vállátforgatás – 10<br>Szalagos lapocka-retrakció – 10<br>Alkarkörzés – 10–10<br>Csuklókörzés – 10–10</p>
+</details>
+<div id="list"></div>
+<div class="bar"><button class="p" id="save">Edzés mentése</button><button id="clear">Törlés</button></div>
+<div class="msg" id="msg"></div>
+<h3>Korábbi edzések</h3>
+<div id="hist"></div>
+</main>
+<script>
+var EX=[["Lehúzás mellhez",3,"6–10",3],["Melltámasztós evezés (30°)",3,"8–12",3],["Csigás pullover",2,"8–12",2],["Face pull",2,"10–15",2],["Ferdepados bicepsz kézisúlyzóval (60°)",2,"8–12",2],["Kalapács hajlítás csigán",2,"8–12",2]];
+var WU={0:[[.5,10],[.75,1]],1:[[.5,5]],4:[[.5,5]]};
+function prefillWeight(i){
+  if(!last)return "";
+  var top=+EX[i][2].split("–")[1],thr=EX[i][3],all=true,w="",rir=true,nearFail=false;
+  for(var s=0;s<EX[i][1];s++){var x=last.s[i+"-"+s];if(!x||!x.r)return "";w=w||x.w;if(+x.r<top)all=false;if(x.i==="")rir=false;else if(+x.i<thr)nearFail=true}
+  if(!w||!rir)return "";
+  if(!all||nearFail)return w;
+  return "";
+}
+function warmupText(i){
+  var cfg=WU[i];if(!cfg||!last)return "";
+  var wStr=(last.w||{})[i];
+  var w=parseFloat(String(wStr||"").replace(",","."));
+  if(!w)return "";
+  var parts=cfg.map(function(s){var kg=Math.round(w*s[0]*2)/2;return s[1]+" × "+kg+" kg ("+Math.round(s[0]*100)+"%)"});
+  return "Bemelegítés: "+parts.join(" → ");
+}
+var DK="pulllog.draft",HK="pulllog.hist";
+function ld(k,d){try{var v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}}
+function sv(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+var hist=ld(HK,[]),draft=ld(DK,{});
+var last=hist.length?hist[hist.length-1]:null;
+var $=function(id){return document.getElementById(id)};
+function today(){var d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
+$("date").value=draft.date||today();$("dur").value=draft.dur||"";$("st").value=draft.st||"";$("en").value=draft.en||"";
+function updateDurSum(){$("dursum").textContent=$("dur").value?$("dur").value+" perc":"—"}
+updateDurSum();
+function hint(i){
+  if(!last)return "";
+  var top=+EX[i][2].split("–")[1],thr=EX[i][3],all=true,w="",rir=true,nearFail=false,reps=[];
+  for(var s=0;s<EX[i][1];s++){var x=last.s[i+"-"+s];if(!x||!x.r)return "";w=w||x.w;reps.push(x.r);if(+x.r<top)all=false;if(x.i==="")rir=false;else if(+x.i<thr)nearFail=true}
+  if(!w)return "";
+  if(!rir)return "";
+  if(!all)return w+" kg — "+reps.join("-")+"<br>Maradj ennél, amíg mindenhol meglesz a "+top+" ismétlés.";
+  if(nearFail)return w+" kg — megvan, de RIR alapján bukásközeli volt. Ne emelj még, maradj ezen a súlyon tovább.";
+  return "Kész a "+w+" kg. Emelhetsz.";
+}
+function build(){
+  var h="";
+  EX.forEach(function(e,i){
+    var hi=hint(i),wu=warmupText(i);
+    h+='<section class="ex"><h2>'+e[0]+'</h2><div class="t">'+e[1]+' × '+e[2]+'</div>'+(hi?'<div class="hint">'+hi+'</div>':'')+(wu?'<div class="warm">'+wu+'</div>':'')
+      +'<label class="wr">Súly (kg)<input inputmode="decimal" autocomplete="off" autocorrect="off" spellcheck="false" data-ex="'+i+'" value="'+((draft.w||{})[i]||prefillWeight(i))+'"></label>'
+      +'<div class="row h"><span></span><span>Ismétlés</span><span>RIR</span></div>';
+    for(var s=0;s<e[1];s++){
+      var k=i+"-"+s,v=(draft.s||{})[k]||{};
+      h+='<div class="row" data-k="'+k+'" data-ex="'+i+'"><span class="n">'+(s+1)+'</span>'
+        +'<input inputmode="numeric" autocomplete="off" autocorrect="off" spellcheck="false" data-f="r" value="'+(v.r||"")+'">'
+        +'<input inputmode="numeric" autocomplete="off" autocorrect="off" spellcheck="false" data-f="i" value="'+(v.i||"")+'"></div>';
+    }
+    h+='</section>';
+  });
+  $("list").innerHTML=h;mark();
+}
+function collect(){
+  var o={date:$("date").value,dur:$("dur").value,st:$("st").value,en:$("en").value,s:{},w:{}};
+  document.querySelectorAll(".wr input").forEach(function(n){if(n.value.trim())o.w[n.dataset.ex]=n.value.trim()});
+  document.querySelectorAll(".row[data-k]").forEach(function(r){
+    var k=r.dataset.k,x={w:o.w[r.dataset.ex]||""};r.querySelectorAll("input").forEach(function(n){x[n.dataset.f]=n.value.trim()});
+    if(x.r||x.i)o.s[k]=x;
+  });return o;
+}
+function mark(){document.querySelectorAll(".row[data-k]").forEach(function(r){var a=r.querySelectorAll("input"),w=document.querySelector('.wr input[data-ex="'+r.dataset.ex+'"]');r.classList.toggle("done",!!(a[0].value&&a[1].value&&w&&w.value))})}
+document.addEventListener("input",function(ev){
+  ev.target.classList.remove("invalid");
+  if(ev.target.id==="st"||ev.target.id==="en"){var a=$("st").value,b=$("en").value;if(a&&b){var m=(+b.slice(0,2)*60+ +b.slice(3))-(+a.slice(0,2)*60+ +a.slice(3));if(m<0)m+=1440;$("dur").value=m}else{$("dur").value=""}updateDurSum()}
+  draft=collect();sv(DK,draft);mark()});
+function fmt(d){var p=d.split("-");return p.length==3?p[0]+". "+p[1]+". "+p[2]+".":d}
+function renderHist(){
+  if(!hist.length){$("hist").innerHTML='<p style="color:var(--mute);font-size:14px">Még nincs mentett edzés.</p>';return}
+  $("hist").innerHTML=hist.slice().reverse().map(function(h){
+    var body=EX.map(function(e,i){
+      var sets=[];for(var s=0;s<e[1];s++){var x=h.s[i+"-"+s];if(x)sets.push((x.w||"–")+" kg × "+(x.r||"–")+(x.i?" (RIR "+x.i+")":""))}
+      return sets.length?"<p><b>"+e[0]+"</b>"+sets.join("<br>")+"</p>":"";
+    }).join("");
+    return '<details class="hist"><summary>'+fmt(h.date)+'<small>'+(h.dur?h.dur+" perc":"")+(h.st&&h.en?" ("+h.st+"–"+h.en+")":"")+'</small></summary>'+body+'</details>';
+  }).join("");
+}
+function validate(){
+  var miss=[],els=[];
+  function chk(id,label){var el=$(id);if(!el.value.trim()){miss.push(label);els.push(el)}}
+  chk("date","Dátum");
+  var stOk=$("st").value.trim(),enOk=$("en").value.trim();
+  if(!stOk||!enOk){miss.push("Idő");els.push($("st"));els.push($("en"))}
+  EX.forEach(function(e,i){
+    var bad=false;
+    var wEl=document.querySelector('.wr input[data-ex="'+i+'"]');
+    if(!wEl.value.trim()){els.push(wEl);bad=true}
+    for(var s=0;s<e[1];s++){
+      var row=document.querySelector('.row[data-k="'+i+'-'+s+'"]');
+      var rEl=row.querySelector('input[data-f="r"]'),iEl=row.querySelector('input[data-f="i"]');
+      if(!rEl.value.trim()){els.push(rEl);bad=true}
+      if(!iEl.value.trim()){els.push(iEl);bad=true}
+    }
+    if(bad)miss.push(e[0]);
+  });
+  return {miss:miss,els:els};
+}
+$("save").onclick=function(){
+  document.querySelectorAll(".invalid").forEach(function(n){n.classList.remove("invalid")});
+  var v=validate();
+  if(v.miss.length){v.els.forEach(function(n){n.classList.add("invalid")});$("msg").className="msg bad";$("msg").textContent="Még nincs kitöltve: "+v.miss.join(", ");return}
+  var o=collect();
+  hist=hist.filter(function(h){return h.date!==o.date});hist.push(o);hist.sort(function(a,b){return a.date<b.date?-1:1});
+  if(hist.length>5)hist=hist.slice(hist.length-5);
+  sv(HK,hist);last=hist[hist.length-1];build();renderHist();
+  $("msg").className="msg good";$("msg").textContent="Mentve.";
+};
+$("clear").onclick=function(){
+  draft={};sv(DK,{});$("dur").value="";$("st").value="";$("en").value="";updateDurSum();build();
+  $("msg").className="msg good";$("msg").textContent="Törölve";
+};
+build();renderHist();
+</script>
+</body>
+</html>
